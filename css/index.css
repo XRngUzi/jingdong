@@ -1,6 +1,12 @@
 *{margin:0 auto}
-a{text-decoration:none;}
-li{list-style:none;}
+a{
+	text-decoration:none;
+	color:#666;
+}
+li{
+	list-style:none;
+	font-size:12px;
+}
 img{border:none;}
 .header {
 	width:100%;
@@ -43,7 +49,6 @@ img{border:none;}
 	border-right:none;
 }
 .nav-r ul li a {
-	color:#666666;
 	font-size:12px;
 }
 .nav-r ul li a span {
@@ -63,4 +68,163 @@ img{border:none;}
 .banner div {
 	width:1210px;
 	height:80px;
+}
+.box {
+	width:1200px;
+	height:100px;
+}
+.box .box3 {
+	float:left;
+	height:58px;
+	padding:24px 0 18px 0;
+}
+.logo {
+	width:163px;
+	height:52px;
+	float:left;
+	background:url(../img/logo.png);
+}
+.move {
+	width:201px;
+	height:70px;
+	float:left;
+	background:url(../img/dong.gif) no-repeat;
+	margin-top:-10px;
+}
+.box .box1 {
+	width:540px;
+	height:50px;
+	margin-top:40px;
+	float:left;
+	font-size:12px;
+}
+.box div .text {
+	padding:4px;
+	border:1px solid #b61d1d;
+	width:450px;
+	height:30px;
+	line-height:25px;
+	margin-right:0;
+}
+.box .box1 div{
+	background:#b61d1d;
+	float:right;
+	height:30px;
+	width:80px;
+	margin-right:10px;
+	text-align:center;
+	font-size:14px;
+	line-height:30px;
+}
+.box .box1 div a {
+	color:#fff;
+}
+.box .box1 a {
+	color:#666666;
+	line-height:20px;
+	margin:0 3px;
+}
+.box .box1 .a1 {
+	color:#ff0000;
+	margin-left:0;
+}
+.box2 {
+	float:right;
+	height:40px;
+	width:110px;
+	margin-top:40px;
+	border:1px solid #dfdfdf;
+	text-align:center;
+	padding-left:40px;
+	background:url(../img/sprite.png);
+	background-position:20px -105px;
+	background-repeat:no-repeat;
+	position:relative;
+}
+.box .box2 a {
+	line-height:40px;
+	color:#666666;
+	font-size:14px;
+}
+.box .box2 div {
+	font-size:12px;
+	width:15px;
+	height:15px;
+	text-align:center;
+	line-height:15px;
+	background:red;
+	color:#fff;
+	border-radius:30px 30px 30px 0;
+	position:absolute;
+	left:117px;
+	top:-3px;
+}
+.search {
+	width:1200px;
+	height:50px;
+	line-height:50px;
+}
+.search .search-l {
+	width:210px;
+	height:50px;
+	float:left;
+	background-color:#b1191a;
+	color:#fff;
+}
+.search .search-l span{
+	margin-left:20px;
+}
+.search .search-m{
+	height:50px;
+	float:left;
+}
+.search .search-m a {
+	margin:0 10px;
+}
+.search .search-m .word {
+	color:#ff0000;
+}
+.search .search-r {
+	width:140px;
+	height:50px;
+	float:right;
+	background-image:url(../img/bike.jpg);
+}
+.footer {
+	width:1218px;
+	height:160px;
+	padding: 27px 0 30px 0;
+	border-top:1px solid #e5e5e5;
+}
+.footer-top ul {
+	height:30px;
+}
+.footer-top ul li {
+	float:left;
+	border-right: 1px solid #ddd;
+	height:20px;
+	margin-top:5px;
+	line-height:20px;
+	padding: 0 5px;
+}
+.footer-top {
+	width:800px;
+}
+.footer-m {
+	text-align:center;
+	width:816px;
+	height:66px;
+	padding:13px 0;
+	font-size:12px;
+	line-height:16px;
+}
+.footer-d {
+	height:32px;
+	width:615px;
+}
+.footer-d div {
+	width:103px;
+	height:32px;
+	float:left;
+	margin-right:4px;
 }
