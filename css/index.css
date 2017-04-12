@@ -62,11 +62,11 @@ img{border:none;}
 	float:left;
 	padding-left:15px;
 }
-.banner {
+.topbanner {
 	width:100%;
 	background-color:#8a25c6;
 }
-.banner div {
+.topbanner div {
 	width:1210px;
 	height:80px;
 }
@@ -190,6 +190,55 @@ img{border:none;}
 	height:50px;
 	float:right;
 	background-image:url(../img/bike.jpg);
+}
+.banner {
+	background:url(../img/banner.jpg) no-repeat center center;
+	height:638px;
+}
+.main {
+	height:638px;
+	width:1200px;
+}
+.main-l {
+	height:470px;
+	width:210px;
+	float:left;
+	background:red;
+}
+.main .main-l ul {
+	padding:10px;
+}
+.main .main-l ul li {
+	line-height:30px;
+	font-size:14px;
+}
+.main .main-l ul li a {
+	color:#fff;
+}
+.main .main-l ul li a span {
+	float:right;
+}
+.main-m {
+	float:left;
+	margin:15px 5px 0 10px;
+}
+.main-r {
+	margin-top:15px;
+	float:left;
+	width:245px;
+	height:453px;
+}
+.main-r p {
+	line-height:40px;
+	border-bottom:1px dashed #e8e8e7;
+}
+.main-r p a {
+	margin-left:10px;
+}
+.main-r p a span {
+	margin-right:10px;
+	float:right;
+	color:#666666;
 }
 .footer {
 	width:1218px;
